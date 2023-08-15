@@ -108,3 +108,5 @@ from [Portfolio Project]..	CovidDeaths$ dea join [Portfolio Project]..CovidVacci
 	where dea.continent is not null
 	group by dea.continent
 	order by [Total Vaccinations] desc
+
+
